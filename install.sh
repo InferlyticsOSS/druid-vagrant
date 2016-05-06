@@ -28,9 +28,6 @@ tar -xzf druid-0.9.0-bin.tar.gz
 rm -rf druid
 mv druid-0.9.0 druid
 chown -R vagrant:vagrant druid
-# cd druid
-# bin/init
-# cd /home/vagrant
 
 echo "Starting Services"
 mkdir -p /var/log/{zookeeper,druid} && \
