@@ -16,7 +16,9 @@ Vagrant promises to make setting up development environments super easy, so idea
 
     $ vagrant up
 
-This should start up a simple single-node cluster as specified in the [Druid Quickstart](http://druid.io/docs/latest/tutorials/quickstart.html).
+This should start up a simple single-node cluster as specified in the [Druid Quickstart](http://druid.io/docs/latest/tutorials/quickstart.html). This needs to download about ~500mb of files (Java, Supervisor and Druid) if you have the box on your machine already, or about ~1.2gb of files (+ ubuntu/trusty box) if you are using Vagrant on a new machine without the box.
+
+Several issues can slow this down - network, drive speed, CPU, etc. Please be patient. It takes about ~20m on the test machines on a slow network. YMMV.
 
 ### Monitoring and Connecting
 
@@ -50,6 +52,6 @@ Please email sriram@raremile.com if you have any issues getting things to work, 
 
 Please feel free to raise a PR if you think you have something awesome to add!
 
-### Credits
+## Credits
 
 This project was inspired by [this one](https://github.com/boneill42/druid-vagrant).
