@@ -1,6 +1,6 @@
 # druid-vagrant
 
-Single node Druid Vagrant environment
+Single node Druid `0.9.0` Vagrant environment
 
 ## How to use?
 
